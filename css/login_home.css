@@ -180,39 +180,7 @@ color:gray;
 background-image:url('../images/navbar_roll.png');
 color:#b20000;
  }
- .navbar ul.mainnavbar li.drop_holder2
-{
-position:relative;
-}       
-
-.navbar ul.mainnavbar li ul.dropdown2{
-clear:both;
-list-style:none;
-background:#e1e1e1;
-display:none;
-//position:absolute;
-} 
-
-.navbar ul.mainnavbar li.drop_holder:hover ul.dropdown2{
-display:block;
-margin:0;
-} 
-
-.navbar ul.mainnavbar li ul.dropdown2 li{
-height:30px;
-clear:both;
-list-style:none;
-background:#e1e1e1;
-}
-
-.navbar ul.mainnavbar li.drop_holder2 ul.dropdown2 li a{   
-color:gray;
- }   
-
-.navbar ul.mainnavbar li.drop_holder2 ul.dropdown2 li a:hover{   
-background-image:url('../images/navbar_roll.png');
-color:#b20000;
- }
+ 
   
 .navbar ul.mainnavbar  li.search_bar{
 float:right;
