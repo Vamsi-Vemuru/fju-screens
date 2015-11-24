@@ -61,7 +61,7 @@ background-repeat:repeat-x;
 .bodysection {
     width:800px;
     float:left;
-    padding-left:100px; 
+    padding:10px; 
     text-align: center;   
 }
 .bodyleft-nav a:link, a:visited {
@@ -79,31 +79,6 @@ background-repeat:repeat-x;
 .bodyleft-nav a:hover, a:active {
     background-color: silver;
 }
-.bodyright-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    right:0px;
-    //height:1300px;
-    text-align:right;
-    position:absolute;
-}
-
-.bodyright-nav a:link, a:visited {
-    display: block;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #696969;
-    width: 130px;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.bodyright-nav a:hover, a:active {
-    background-color: silver;
-}
 
 .navbar a{
 text-decoration:none; 
@@ -116,9 +91,9 @@ text-decoration:underline;
 .navbar ul.mainnavbar {
   text-align:center;
   height:25px;
-	width: auto;
-	//float: left;
-	list-style: none;
+  width: auto;
+  //float: left;
+  list-style: none;
   font-weight:bold;
 
 }
@@ -126,7 +101,7 @@ text-decoration:underline;
 .navbar ul.mainnavbar > li {
   width:175px;
   height:25px;
-	float: left; 
+  float: left; 
     z-index: 100;
 }
   
@@ -140,7 +115,7 @@ line-height:22px;
 text-decoration: none;
 font-weight: bold;
 color: #fff;
-	}
+  }
 
 .navbar ul.mainnavbar li a:hover {
 //text-decoration:underline;
