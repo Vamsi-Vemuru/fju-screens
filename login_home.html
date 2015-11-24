@@ -1,101 +1,68 @@
 <html>
 <head>
-<title>FJU</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="css/login_home.css" rel="stylesheet">
-<script>
-  function coaches() {
-    var text = 'Assigned coaches for current course are as follows:<br>1. rajesh<br>2. Suresh';
-    document.getElementById("display").innerHTML = text;
-  }
-  function enrolled() {
-    var text = 'Enrolled courses include:<br>1. Java<br>2. DBMS<br>3. WebProg';
-    document.getElementById("display").innerHTML = text;
-  }
-  function status() {
-    var text = 'Current Module: Not completed';
-    document.getElementById("display").innerHTML = text;
-  }
-  function events() {
-    var text = 'Upcoming events are:<br>1. vmpre<br>2. askwll';
-    document.getElementById("display").innerHTML = text;
-  }
-  function submissions() {
-    var text = 'Submissions made for this course:<br>1. assignment1<br>2. assignment2<br>3. assignment3';
-    document.getElementById("display").innerHTML = text;
-  }
-  function disc() {
-    var text = 'Discuss with your coaches and students regarding course:';
-    document.getElementById("display").innerHTML = text;
-  }
-  function faq() {
-    var text = 'FAQs:<br>1. Can I jump to next module without completing current module:<br>A: No, you should complete the current module to take next.<br>2. How can I solve my doubts?<br>A: Through discussion forum you can get your doubts answered.<br>3. How can I know my status inthe course<br>A: Click on status on right navigation bar to know your status.';
-    document.getElementById("display").innerHTML = text;
-  }
-  function abt() {
-    var text = 'Web Programming:<br>The course make you understand what is web, how a web application can be made and all others';
-    document.getElementById("display").innerHTML = text;
-  }
-  </script>
+	<title>FJU</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/login_home.css" rel="stylesheet">
 </head>
 <body>
-<div class = "body_wrapper">
-<div class = "header">
-<div class ="logo"><img src="#" alt="LOGO"></div>
-<div class="head_text">TITLE</div>
-</div>
-  <div class="navbar">  
-  <ul class="mainnavbar">
-	<li><a href="login_home.html">HOME</a></li>
-	<li class="drop_holder">
-  <a href="#">X</a>
-  <ul class="dropdown">
-	<li><a href="#">alpha</a></li>
-	<li><a href="#">beta</a></li>
-	<li><a href="#">gamma</a></li>
-  </ul>
-  </li>
-	<li><a href="#">Y</a></li>
-	<li><a href="#">Z</a></li>
-  <li class="drop_holder">
-  <a href="#">username....</a>
-	  <ul class="dropdown">
-		  <li><a href="#">profile</a></li>
-		  <li><a href="#">settings</a></li>
-		  <li><a href="#">signout</a></li>
-	  </ul>
-  </li>
-  </ul> 
-  </div>
-  <div class="body">
-  <div class="bodyleft-nav">
-    <ul>
-  <li><a href="#home" onClick = "coaches()">Assigned coaches</a></li>
-  <li><a href="#news" onClick = "enrolled()">Courses Enrolled</a></li>
-  <li><a href="#contact" onClick = "status()">Module Status</a></li>
-  <li><a href="#about" onClick = "events()">Upcoming Events</a></li>
-  <li><a href="#about" onClick = "submissions()">Submissions</a></li>
-</ul>
-</div>
-<div class="bodysection">
-  <p id="display">---Current Module---</p>
+	<div class = "body_wrapper">
+		<div class = "header">
+			<div class ="logo"><img src="#" alt="LOGO"></div>
+			<div class="head_text">TITLE</div>
+		</div>
+		<div class="navbar">  
+			<ul class="mainnavbar">
+				<li><a href="login_home.html">HOME</a></li>
+				<li class="drop_holder">
+					<a href="#">X</a>
+					<ul class="dropdown">
+						<li><a href="#">alpha</a></li>
+						<li><a href="#">beta</a></li>
+						<li><a href="#">gamma</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Y</a></li>
+				<li><a href="#">Z</a></li>
+				<li class="drop_holder">
+					<a href="#">username....</a>
+					<ul class="dropdown">
+						<li><a href="#">profile</a></li>
+						<li><a href="#">settings</a></li>
+						<li><a href="home.html">signout</a></li>
+					</ul>
+				</li>
+			</ul> 
+		</div>
+		<div class="body">
+			<div class="bodyleft-nav">
+				<ul>
+					<li><a href="#home" onClick = "coaches()">Assigned coaches</a></li>
+					<li><a href="#news" onClick = "enrolled()">Courses Enrolled</a></li>
+					<li><a href="#contact" onClick = "status()">Module Status</a></li>
+					<li><a href="#about" onClick = "events()">Upcoming Events</a></li>
+					<li><a href="#about" onClick = "window.location.href='file:///E:/WORK/MSIT/IT/WP/FJU/submissions.html'">Submissions</a></li>
+				</ul>
+			</div>
+			<div class="bodysection">
+				<p id="display">---Current Module---</p>
 
-  </div>
-<div class="bodyright-nav">
-    <ul>
-  <li><a href="#home" onClick = "disc()">Discussion Forum</a></li>
-  <li><a href="#news" onClick = "faq()">FAQ's</a></li>
-  <li><a href="#about" onClick = "abt()">about course..</a></li>
-  <li><a href="#about">xyzxyz</a></li>
-</ul>
-</div>
-</div>
-<div class = "footer">
-<div calss="foot1">about us</div>
-<div class="foot2">contact now</div>
-</div>
-</div>
-<script type="text/javascript" src="js/login.js"></script>
+			</div>
+			<div class="bodyright-nav">
+				<ul>
+					<li><a href="#home" onClick = "disc()">Discussion Forum</a></li>
+					<li><a href="#news" onClick = "faq()">FAQ's</a></li>
+					<li><a href="#about" onClick = "abt()">about course..</a></li>
+					<li><a href="#about">xyzxyz</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "footer">
+			<div calss="foot1">about us</div>
+			<div class="foot2">contact now</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/login_home.js"></script>
 </body>
 </html>
