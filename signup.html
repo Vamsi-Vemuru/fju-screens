@@ -1,9 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+  <title>FJU - Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/home.css" rel="stylesheet">
 </head>
 <body>
-
+  <div class = "body_wrapper">
+    <div class = "header">
+      <div class ="logo"><img src="#" alt="LOGO"></div>
+      <div class="head_text">TITLE</div>
+    </div>
+    <div class="navbar">  
+      <ul class="mainnavbar">
+      <li><a href="home.html">HOME</a></li>
+      <li class="drop_holder">
+      <a href="#">X</a>
+      <ul class="dropdown">
+      <li><a href="#">alpha</a></li>
+      <li><a href="#">beta</a></li>
+      <li><a href="#">gamma</a></li>
+      </ul>
+      </li>
+      <li><a href="#">Y</a></li>
+      <li><a href="#">Z</a></li>
+      <li class="sign_button"><button name="sign" value="sign-up">sign-up</button></li>
+      <li class="login_button"><button onclick="login_cd('show')">login</button></li>
+      </ul> 
+    </div>
+    <div id="SignUp">
+      <h1>Sign Up</h1>
+      <form>
+        First Name:
+        <input type="text" name="firstname" class="signupform"> <br>
+        Last Name:
+        <input type="text" name="lastname" class="signupform"> <br>
+        X:
+        <input type="text" name="x" class="signupform"> <br>
+        Y:
+        <input type="text" name="y" class="signupform"> <br>
+        Z:
+        <input type="text" name="z" class="signupform"> <br>
+        
+        <input type="button" value="Submit" onclick="window.location.href='file:///E:/WORK/MSIT/IT/WP/FJU/home.html'">
+      </form>
+    </div>
+    <div id="popupbox"> 
+      <form name="login" action="" method="post">
+        <center>Username:</center>
+        <center><input name="username" size="14" /></center>
+        <center>Password:</center>
+        <center><input name="password" type="password" size="14" /></center>
+        <center><input type="submit" name="submit" value="login" /></center>
+      </form>
+      <br />
+      <center><a href="javascript:login('hide');">close</a></center> 
+    </div>
+    <div class = "footer">
+      <div calss="foot1">about us</div>
+      <div class="foot2">contact now</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
