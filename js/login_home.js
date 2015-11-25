@@ -2,9 +2,10 @@ function coaches() {
     var text = 'Assigned coaches for current course are as follows:<br>1. rajesh<br>2. Suresh';
     document.getElementById("display").innerHTML = text;
   }
+
   function enrolled() {
-    var text = 'Enrolled courses include:<br>1. Java<br>2. DBMS<br>3. WebProg';
-    document.getElementById("display").innerHTML = text;
+    var text = "<select> <option value=" + "volvo" + ">WP</option> <option value=" + "saab" + ">Java</option> <option value=" + "opel" + ">Py</option> <option value=" + "audi" + ">HTML</option> </select>";
+    document.getElementById("display").innerHTML = text + "<br>video here";
   }
   function status() {
     var text = 'Current Module: Not completed';
